@@ -1,2 +1,2 @@
 # Quantum_Colab.ipynb
-Interactive Python simulations for teaching Introductory Quantum Mechanics. Explore concepts like free particles, potential wells, harmonic oscillators, and more with dynamic visualizations in Google Colab. Ideal for students and educators!
+Simulações interativas em Python para o ensino da mecânica quântica introdutória. Explore conceitos como partículas livres, poços de potencial, osciladores harmônicos quânticos e muito mais! Com visualizações dinâmicas no Google Colab, os códigos são ideais para estudantes e educadores!
