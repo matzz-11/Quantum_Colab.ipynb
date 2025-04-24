@@ -4,26 +4,32 @@ import numpy as np
 import matplotlib.pyplot as plt
 from ipywidgets import interact, FloatSlider, IntSlider, ToggleButtons
 
-# Função para calcular psi_n
+# Função para calcular ψₙ(x)
 def psi_n_func(x, n, a):
     mask = (x >= 0) & (x <= a)
     psi = np.zeros_like(x)
-    psi[mask] = np.sqrt(2/a) * np.sin(n * np.pi * x[mask] / a)
+    psi[mask] = np.sqrt(2 / a) * np.sin(n * np.pi * x[mask] / a)
     return psi
 
-# Função para calcular energia proporcional (sem unidades explícitas)
+# Função para calcular energia proporcional
 def energia_proporcional(n, a):
-    return (n**2) / (a**2)
+    return (n ** 2) / (a ** 2)
 
-# Função principal de visualização com múltiplos níveis de energia
+# Função de visualização principal
 def plot_wave_function(n=1, a=1.0, mostrar='ψ_n(x)'):
     margem = 0.5 * a
     x = np.linspace(-margem, a + margem, 1000)
 
+    plt.figure(figsize=(10, 8))
+    plt.fill_between(x, -2, 2, where=((x < 0) | (x > a)), color='red', alpha=0.2, label="Potencial infinito")
+    plt.axvline(0, color='black', linestyle='--', linewidth=1)
+    plt.axvline(a, color='black', linestyle='--', linewidth=1)
+
     psi = psi_n_func(x, n, a)
-    
+    energia = energia_proporcional(n, a)
+
     if mostrar == '|ψ_n(x)|²':
-        y = psi**2
+        y = psi ** 2
         ylabel = '|ψ_n(x)|²'
         titulo = f'Densidade de Probabilidade |ψ_{n}(x)|²'
     else:
@@ -31,26 +37,17 @@ def plot_wave_function(n=1, a=1.0, mostrar='ψ_n(x)'):
         ylabel = 'ψ_n(x)'
         titulo = f'Função de Onda ψ_{n}(x)'
 
-    energias = [energia_proporcional(i, a) for i in range(1, 5)]
-
-    # Plotagem
-    plt.figure(figsize=(10, 8))
-    plt.fill_between(x, -2, 2, where=((x < 0) | (x > a)), color='red', alpha=0.3)
     plt.plot(x, y, label=f'{ylabel}', color='black', linewidth=2)
+    plt.axhline(energia, color='blue', linestyle=':', linewidth=1.5, label=f'$E_{n} \\propto \\frac{{{n}^2}}{{a^2}}$')
     
-    # Linhas de energia
-    for i, E in enumerate(energias, 1):
-        plt.axhline(E, color='blue', linestyle=':', linewidth=1.5, label=f'E_{i} ∝ {i}²/a²' if i == 1 else None)
-    
-    plt.axvline(0, color='black', linestyle='--', linewidth=1)
-    plt.axvline(a, color='black', linestyle='--', linewidth=1)
     plt.title(titulo)
     plt.xlabel('x')
     plt.ylabel(ylabel)
     plt.grid(True, linestyle='--', linewidth=0.5)
     plt.legend()
     plt.xlim(-margem, a + margem)
-    plt.ylim(-0.5, max(2.5, max(energias)*1.2))
+    plt.ylim(-0.5, max(2.5, energia * 1.3))
+    plt.tight_layout()
     plt.show()
 
 # Interface interativa
