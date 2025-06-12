@@ -13,3 +13,20 @@ Os arquivos serão disponibilizados no formato .ipynb, para que vocês possam fa
 para o acesso direto dos códigos também. 
 
 Divirtam-se!
+
+## Ordem recomendada
+
+Caso queira seguir uma ordem de aprendizado, irei disponibilizar aqui a mesma que utilizamos na construção dos potenciais para edificar seu conhecimento!
+
+- Poço Quadrado Infinito
+
+- Oscilador Harmônico Quântico
+
+- Partícula Livre (Pacotes de ondas)
+
+- Poço Função Delta
+
+- Poço Quadrado Finito
+
+- Poço Duplo
+
