@@ -16,7 +16,7 @@ Divirtam-se!
 
 ## Ordem recomendada
 
-Caso queira seguir uma ordem de aprendizado, irei disponibilizar aqui a mesma que utilizamos na construção dos potenciais para edificar seu conhecimento!
+Caso queira seguir uma ordem de aprendizado, irei disponibilizar a que utilizamos na construção do projeto:
 
 - Poço Quadrado Infinito
 
