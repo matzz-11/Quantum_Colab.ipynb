@@ -3,7 +3,9 @@ Simulações interativas em Python para o ensino da mecânica quântica introdut
 
 # Introdução
 
-Seja bem-vindo, estudante! Nesse repositório iremos disponibilizar códigos de simulações interativas sobre alguns potenciais estudados em mecânica quântica, feitos no Google Colab.
+## Seja bem-vindo, estudante! 
+
+Nesse repositório iremos disponibilizar códigos de simulações interativas sobre alguns potenciais estudados em mecânica quântica, feitos no Google Colab.
 A ideia foi motivada pelos 100 anos de comemoração de mecânica quântica, junto ao fato de que a dificuldade dos alunos no processo ensino-aprendizagem dessa vertente da física ainda é um problema a ser solucionado.
 Esperamos que vocês interajam a vontade com os códigos e realizem os exercícios propostos para exercitar o conhecimento! Caso tenha alguma dúvida, temos explicações teóricas ao longo do notebook e recomendação
 de um livro que utilizamos na construção desse projeto. Para contribuirmos com o seu entendimento, também temos aplicações e curiosidades de cada potencial, para "saimros do papel" um pouco!
