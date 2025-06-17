@@ -24,9 +24,9 @@ Caso queira seguir uma ordem de aprendizado, irei disponibilizar a que utilizamo
 
 - Partícula Livre (Pacotes de ondas)
 
-- Poço Função Delta
+- Poço Função Delta de Dirac
 
 - Poço Quadrado Finito
 
-- Poço Duplo
+- Poço Quadrado Duplo
 
