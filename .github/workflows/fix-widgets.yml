@@ -3,6 +3,9 @@
 
 name: Auto-fix Widget Metadata
 
+permissions:
+  contents: write
+
 # Dispara em todo push que inclua notebooks
 on:
   push:
