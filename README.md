@@ -14,7 +14,9 @@ para o acesso direto dos códigos também.
 
 Divirtam-se!
 
-## Ordem recomendada
+## Recomendações
+
+Por enquanto, ainda não temos a funcionalidade de execução dos códigos diretamente aqui, então irei disponibilizar para copiar e colar no Google Colab! Entre nos arquivos .py e copie a partir de "!pip install..." para colar e executar em um ambiente Colab.
 
 Caso queira seguir uma ordem de aprendizado, irei disponibilizar a que utilizamos na construção do projeto:
 
