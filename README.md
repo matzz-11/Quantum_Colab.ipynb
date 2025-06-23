@@ -17,7 +17,7 @@ Divirtam-se!
 ## Recomendações
 
 Por enquanto, ainda não temos a funcionalidade de execução dos códigos diretamente aqui, então irei disponibilizar para copiar e colar no Google Colab!
-Caso queira seguir uma ordem de aprendizado, irei disponibilizar a que utilizamos na construção do projeto:
+Caso queira seguir uma ordem de aprendizado, aqui está a que utilizamos para o projeto:
 
 - Poço Quadrado Infinito
 
