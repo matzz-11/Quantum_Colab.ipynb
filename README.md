@@ -23,7 +23,7 @@ Caso queira seguir uma ordem de aprendizado, aqui está a que utilizamos para o 
 
 - Oscilador Harmônico Quântico
 
-- Partícula Livre (Pacotes de ondas)
+- Partícula Livre (Pacotes de ondas) - (Em andamento)
 
 - Poço Função Delta de Dirac
 
