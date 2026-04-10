@@ -18,15 +18,20 @@ Divirtam-se!
 Por enquanto, ainda não temos a funcionalidade de execução dos códigos diretamente aqui, então irei disponibilizar para acesso pelo Google Colab!
 Caso queira seguir uma ordem de aprendizado, aqui está a que utilizamos para desenvolver o projeto:
 
+Tópicos do livro:
+
 - Poço Quadrado Infinito
 
 - Oscilador Harmônico Quântico
 
-- Partícula Livre (Pacotes de ondas)
+- Partícula Livre
 
 - Poço Função Delta de Dirac
 
 - Poço Quadrado Finito
 
-- Poço Quadrado Duplo
+Casos particulares:
 
+- Barreira Função Delta de Dirac
+
+- Poço Quadrado Duplo
