@@ -35,3 +35,10 @@ Casos particulares:
 - Barreira Função Delta de Dirac
 
 - Poço Quadrado Duplo
+
+## Próximos passos
+
+Pretendemos seguir em constante aprimoramento dos códigos e correção de bugs, qualquer erro reportado ou dúvida podem entrar em contato pelo email: "augustoantoniazzi04@gmail.com"
+- Em breve iremos adicionar um notebook exclusivo para o átomo de Hidrogênio (Capítulo 4 do livro de referência) para visualização dos harmônicos esféricos!
+- ...
+
