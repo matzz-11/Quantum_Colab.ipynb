@@ -36,9 +36,12 @@ Casos particulares:
 
 - Poço Quadrado Duplo
 
+Bônus:
+- Átomo de Hidrogênio
+
 ## Próximos passos
 
 Pretendemos seguir em constante aprimoramento dos códigos e correção de bugs, qualquer erro reportado ou dúvida podem entrar em contato pelo email: "augustoantoniazzi04@gmail.com"
-- Em breve iremos adicionar um notebook exclusivo para o átomo de Hidrogênio (Capítulo 4 do livro de referência) para visualização dos harmônicos esféricos!
+- Em breve iremos adicionar uma seção teórica no notebook para o átomo de Hidrogênio (Capítulo 4 do livro de referência);
 - ...
 
